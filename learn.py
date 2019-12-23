@@ -10,5 +10,6 @@ def greet(who_to_greet):
     return greeting
 
 
-print(greet("Sahib"))
+if __name__ == "__main__":
+    print(greet("Sahib"))
 
