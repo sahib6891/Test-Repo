@@ -12,4 +12,5 @@ def greet(who_to_greet):
 
 if __name__ == "__main__":
     print(greet("Sahib"))
-
+    r = requests.get("https://coreyms.com")
+    print(r.status_code)
